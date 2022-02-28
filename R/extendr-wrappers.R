@@ -8,7 +8,15 @@
 #' @useDynLib rrustbio, .registration = TRUE
 NULL
 
-#' Return string `"Hello world!"` to R.
+GFF <- new.env(parent = emptyenv())
+
+GFF$from_file <- function(path) .Call(wrap__GFF__from_file, path)
+
+GFF$as_dataframe <- function() .Call(wrap__GFF__as_dataframe, self)
+
 #' @export
-hello_world <- function() .Call(wrap__hello_world)
+`$.GFF` <- function (self, name) { func <- GFF[[name]]; environment(func) <- environment(); func }
+
+#' @export
+`[[.GFF` <- `$.GFF`
 

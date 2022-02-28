@@ -1,10 +1,16 @@
 [package]
-name = 'rrustbio'
-version = '0.2.0'
-edition = '2018'
+name = "rrustbio"
+version = "0.2.0"
+edition = "2018"
 
 [lib]
-crate-type = [ 'staticlib' ]
+crate-type = [ "staticlib" ]
 
 [dependencies]
-extendr-api = '*'
+extendr-api = { path = "../../../extendr/extendr-api/"}
+bio = "*"
+multimap = "*"
+bio-types = "*"
+
+[dev-dependencies]
+extendr-engine = { path = "../../../extendr/extendr-engine/"}
