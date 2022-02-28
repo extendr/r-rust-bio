@@ -1,4 +1,4 @@
 library(testthat)
-library(helloextendr)
+library(r-rust-bio)
 
-test_check("helloextendr")
+test_check("r-rust-bio")

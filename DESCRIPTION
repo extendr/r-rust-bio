@@ -1,4 +1,4 @@
-Package: helloextendr
+Package: r-rust-bio
 Title: Minimal Example of Calling Rust from R
 Version: 0.1.0
 Authors@R: c(
