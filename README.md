@@ -1,6 +1,6 @@
 # R binings for Rust Bio
 
-[![R build status](https://github.com/extendr/r-rust-bio/workflows/R-CMD-check/badge.svg)](https://github.com/extendr/r-rust-bio/actions)
+[![R build status](https://github.com/extendr/rrustbio/workflows/R-CMD-check/badge.svg)](https://github.com/extendr/rrustbio/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
@@ -15,12 +15,12 @@ rustup target add i686-pc-windows-gnu
 
 Once Rust is working, you can install this package via:
 ```r
-remotes::install_github("extendr/r-rust-bio")
+remotes::install_github("extendr/rrustbio")
 ```
 
 After installation, the following should work:
 ```r
-library(r-rust-bio)
+library(rrustbio)
 
 hello_world()
 #> [1] "Hello world!"

@@ -1,4 +1,4 @@
 library(testthat)
-library(r-rust-bio)
+library(rrustbio)
 
-test_check("r-rust-bio")
+test_check("rrustbio")

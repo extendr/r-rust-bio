@@ -1,7 +1,7 @@
 TARGET_DIR = ./rust/target
 LIBDIR = $(TARGET_DIR)/release
-STATLIB = $(LIBDIR)/libr-rust-bio.a
-PKG_LIBS = -L$(LIBDIR) -lr-rust-bio
+STATLIB = $(LIBDIR)/librrustbio.a
+PKG_LIBS = -L$(LIBDIR) -lrrustbio
 
 all: C_clean
 
