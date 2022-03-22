@@ -1,4 +1,4 @@
-# R binings for Rust Bio
+# R bindings for Rust Bio
 
 [![R build status](https://github.com/extendr/rrustbio/workflows/R-CMD-check/badge.svg)](https://github.com/extendr/rrustbio/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
